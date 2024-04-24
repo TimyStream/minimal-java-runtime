@@ -1,4 +1,4 @@
-name: Build and Upload Docker Container Image to Gitea
+name: Build and Upload Container Images
 
 run-name: Build Container Image
 
