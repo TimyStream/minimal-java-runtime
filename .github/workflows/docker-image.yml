@@ -62,4 +62,4 @@ jobs:
           context: .
           file: ./Java26-Dockerfile
           push: true
-          tags: "ghcr.io/timystream/mjrt:26
+          tags: "ghcr.io/timystream/mjrt:26"
