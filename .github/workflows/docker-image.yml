@@ -56,3 +56,10 @@ jobs:
           file: ./Java21-Dockerfile
           push: true
           tags: "ghcr.io/timystream/mjrt:21"
+      - name: Build and push Docker image for Java 26
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Java26-Dockerfile
+          push: true
+          tags: "ghcr.io/timystream/mjrt:26
