@@ -6,7 +6,7 @@ on: [push]
 
 jobs:
   Publish-Container-Image:
-    runs-on: ubuntu-20.04
+    runs-on: self-hosted
     permissions:
       contents: read
       packages: write
